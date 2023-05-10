@@ -44,11 +44,11 @@ public class EntradaDeDatos {
     System.out.println("El estado es: "+ estado);*/
     
     
-    Scanner sc = new Scanner(System.in);
+   /* Scanner sc = new Scanner(System.in);
     char letra;
     System.out.println("Ingrese una letra");
     letra=sc.nextLine().charAt(0);
-    System.out.println("La letra ingresada es: "+ letra);
+    System.out.println("La letra ingresada es: "+ letra);*/
      
      
     }
