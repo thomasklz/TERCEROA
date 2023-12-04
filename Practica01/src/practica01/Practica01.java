@@ -18,14 +18,28 @@ public class Practica01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+       /* Scanner sc = new Scanner(System.in);
         int numero;
        
         System.out.println("Ingrese un numero");
         numero= sc.nextInt();
         
         
-        System.out.println("El numero es: "+numero);
+        System.out.println("El numero es: "+numero);*/
+       
+       
+       Scanner sc = new Scanner(System.in);
+       int numero;
+       
+        System.out.println("Ingrese un numero");
+        numero=sc.nextInt();
+        
+        if(numero>10){
+            System.out.println("Numero mayor a 10");
+        }
+        
+        
+       
        
         
     }
